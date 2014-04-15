@@ -1,0 +1,31 @@
+1. Base functions for new Job Manager:
+	- Create job class with following parameters: jobClassName, concurrency, maxruntime, maxwaittime.
+	- Assign job to job class
+	- Revoke job from job class
+	- Create job
+	- Remove job
+	- Count running job
+	- Create trigger 
+	- Schedule a job and trigger
+	- Re-schedule job + trigger
+	- Un-schedule a job
+	- Interrupt a job if running time is over the maxruntime or waiting time is over the maxwaittime
+	- Prevent the concurrent executing job based on pre-configured number of concurrency.
+	- Get result data of job based on job name.
+	- Get information of Job (name, start time, end time, interrupt time ...).
+	- Execute a job immediate.
+	- Pause schedule
+	- Resume the schedule
+	- Search job in a job class
+	- Search job base on job name/job key
+	- Other setter/getter
+
+2. Main business flow (sequence diagram)
+	- Create new job, beginning when user add new job file to job directory until job manager complete add job.
+	- Re-schedule job
+	- Create new trigger
+	- Update existing trigger
+	- Create job class
+	- Add job to jobclass
+	- Revoke job from jobclass.
+	- Interrupt job when reaching the limitation (max run times, concurrency, max wait time)
