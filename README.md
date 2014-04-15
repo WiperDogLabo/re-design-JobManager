@@ -1,9 +1,11 @@
 Class diagram:  
-	ClassDiagram_JobManager.jpg  
+ - 	ClassDiagram_JobManager.jpg   
+   
 Sequence diagrams:  
-	createJob.jpg  
-	createJobClass.jpg  
-	createTrigger.jpg  
-	Interrupt_Job.jpg  
-UMLProject:  
-	VisualParadigmProject.zip  
+ - 	createJob.jpg  
+ - 	createJobClass.jpg  
+ - 	createTrigger.jpg  
+ - 	Interrupt_Job.jpg  
+  
+UMLProject:   
+ - 	VisualParadigmProject.zip  
